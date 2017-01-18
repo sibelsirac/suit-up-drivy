@@ -48,11 +48,11 @@ html{
 .testbox {
   margin: 20px auto;
   width: 343px; 
-  height: 464px; 
+  height: 504px; 
   -webkit-border-radius: 8px/7px; 
   -moz-border-radius: 8px/7px; 
   border-radius: 8px/7px; 
-  background-color: #ebebeb; 
+  background-color:  rgba(230,230,230,.4); 
   -webkit-box-shadow: 1px 2px 5px rgba(0,0,0,.9); 
   -moz-box-shadow: 1px 2px 5px rgba(0,0,0,.9); 
   box-shadow: 1px 2px 5px rgba(0,0,0,.9); 
@@ -77,7 +77,7 @@ label.radio {
 }
 
 label.radio:before {
-  background: #3a57af;
+  background: #DAA520;
   content:'';
   position: absolute;
   top:2px;
@@ -121,7 +121,7 @@ label.checkbox {
 }
 
 label.checkbox:before {
-  background: #3a57af;
+  background: #DAA520;
   content:'';
   position: absolute;
   top:2px;
@@ -215,7 +215,7 @@ input[type=password]{
 #icon {
   display: inline-block;
   width: 30px;
-  background-color: #3a57af;
+  background-color: #DAA520;
   padding: 8px 0px 8px 15px;
   margin-left: 15px;
   -webkit-border-radius: 4px 0px 0px 4px; 
@@ -325,7 +325,7 @@ button {
   -webkit-border-radius: 5px; 
   -moz-border-radius: 5px; 
   border-radius: 5px; 
-  background-color: #3a57af; 
+  background-color: #DAA520; 
   -webkit-box-shadow: 0 3px rgba(58,87,175,.75); 
   -moz-box-shadow: 0 3px rgba(58,87,175,.75); 
   box-shadow: 0 3px rgba(58,87,175,.75);
