@@ -40,17 +40,17 @@
   <hr>   <div id="car">
   <label id="icon" for="name"><i class="icon-envelope"></i></label>
   <input class="model" type="text"   placeholder="Car model" required/>
-  <label id="icon" for="name"><i class="icon-user"></i></label>
+  <label id="icon" for="name"><i class="icon-dollar"></i></label>
   <input class="price-by-day"  type="number"  placeholder="Price by day" required/>
-  <label id="icon" for="name"><i class="icon-user"></i></label>
+  <label id="icon" for="name"><i class="icon-km"></i></label>
   <input class="price-by-km" type="number" placeholder="Price by km" required/>
  </div>
          <hr>
 		   <div id="rental">
-		    <label id="icon" for="name"><i class="icon-user"></i></label>
+		    <label id="icon" for="name"><i class="icon-date"></i></label>
   <input class="begin" type="date"  placeholder="Rental begin date" required/>
     <input class="end" type="date" placeholder="Rental end date" required/>
-	  <label id="icon" for="name"><i class="icon-user"></i></label>
+	  <label id="icon" for="name"><i class="icon-distance"></i></label>
 	    <input class="distance"type="number" placeholder="Distance in km" required/>
 		    <div class="accounttype">
       <input class="option" type="checkbox"   checked/>
@@ -60,7 +60,7 @@
 
  <button id="compute">Compute</button>
  <div id="actors"></div>
- 
+ <div2>
     <script id="template" type="x-tmpl-mustache">
       {{#actors}}
         <div class="actor">
@@ -72,7 +72,7 @@
     </script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/mustache.js/2.2.1/mustache.min.js"></script>
     <script src="drivy.js"></script>
-    <script src="index.js"></script> 
+    <script src="index.js"></script> </div2>
   </div>
 </div>
   </body>

@@ -8,15 +8,14 @@ fieldset, img {border:0}
 ol, ul, li {list-style:none}
 
 :focus {outline:none}
-filtre{
-	 background-color: rgba(0, 0, 0, 0.2);
-}
+
 html{
 	
 	   max-width: 100%;
 	background-image:url(bg1.jpg);
 	background-size: cover;
-background-color:rgba(255,0,0,0.1);  
+	
+
 }
 body,
 input,
@@ -54,12 +53,12 @@ html{
   -moz-border-radius: 8px/7px; 
   border-radius: 8px/7px; 
   background-color: #ebebeb; 
-  -webkit-box-shadow: 1px 2px 5px rgba(0,0,0,.31); 
-  -moz-box-shadow: 1px 2px 5px rgba(0,0,0,.31); 
-  box-shadow: 1px 2px 5px rgba(0,0,0,.31); 
+  -webkit-box-shadow: 1px 2px 5px rgba(0,0,0,.9); 
+  -moz-box-shadow: 1px 2px 5px rgba(0,0,0,.9); 
+  box-shadow: 1px 2px 5px rgba(0,0,0,.9); 
   border: solid 1px #cbc9c9;
 }
-
+	
 input[type=radio] {
   visibility: hidden;
 }
@@ -237,6 +236,42 @@ input[type=password]{
     background: url("icon1.png") no-repeat 0 0;
     background-size: 100%;
 }
+.icon-distance:before {
+   display: inline-block;
+    width: 16px;
+    height: 16px;
+    margin-right: 5px;
+    content: "";
+    background: url("icon5.png") no-repeat 0 0;
+    background-size: 100%;
+}
+.icon-dollar:before {
+   display: inline-block;
+    width: 16px;
+    height: 16px;
+    margin-right: 5px;
+    content: "";
+    background: url("icon2.png") no-repeat 0 0;
+    background-size: 100%;
+}
+.icon-km:before {
+   display: inline-block;
+    width: 16px;
+    height: 16px;
+    margin-right: 5px;
+    content: "";
+    background: url("icon3.png") no-repeat 0 0;
+    background-size: 100%;
+}
+.icon-date:before {
+   display: inline-block;
+    width: 16px;
+    height: 16px;
+    margin-right: 5px;
+    content: "";
+    background: url("icon4.png") no-repeat 0 0;
+    background-size: 100%;
+}
 .gender {
   margin-left: 30px;
   margin-bottom: 30px;
@@ -277,17 +312,16 @@ a.button:hover {
   box-shadow: none;
   
 }
-/*
+
 button {
   font-size: 14px;
   font-weight: 600;
   color: white;
-  padding: 6px 25px 0px 20px;
-  margin: 10px 0px 0px 20px;
+
   display: inline-block;
   float: right;
   text-decoration: none;
-  width: 50px; height: 27px; 
+  width: 90px; height: 27px; 
   -webkit-border-radius: 5px; 
   -moz-border-radius: 5px; 
   border-radius: 5px; 
@@ -307,5 +341,5 @@ button:hover {
   -moz-box-shadow: none; 
   box-shadow: none;
   
-}*/
+}
 
