@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html>
+
   <head>
+  <link href='design.css' rel='stylesheet' type='text/css'>
     <title>CSS/HTML Workshop with Drivy</title>
   </head>
-  <body>
-    <div id="car">
+  <body><!--
+   <div id="car">
       <input class="model" type="text" placeholder="Car model"/>
       <input class="price-by-day" type="number" placeholder="Price by day"/>
       <input class="price-by-km" type="number" placeholder="Price by km"/>
@@ -28,6 +30,51 @@
     </script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/mustache.js/2.2.1/mustache.min.js"></script>
     <script src="drivy.js"></script>
-    <script src="index.js"></script>
+    <script src="index.js"></script> 
+	
+	--><div class="testbox">
+  <h1>Registration</h1>
+
+  <div id="test">
+
+  <hr>   <div id="car">
+  <label id="icon" for="name"><i class="icon-envelope"></i></label>
+  <input class="model" type="text"   placeholder="Car model" required/>
+  <label id="icon" for="name"><i class="icon-user"></i></label>
+  <input class="price-by-day"  type="number"  placeholder="Price by day" required/>
+  <label id="icon" for="name"><i class="icon-user"></i></label>
+  <input class="price-by-km" type="number" placeholder="Price by km" required/>
+ </div>
+         <hr>
+		   <div id="rental">
+		    <label id="icon" for="name"><i class="icon-user"></i></label>
+  <input class="begin" type="date"  placeholder="Rental begin date" required/>
+    <input class="end" type="date" placeholder="Rental end date" required/>
+	  <label id="icon" for="name"><i class="icon-user"></i></label>
+	    <input class="distance"type="number" placeholder="Distance in km" required/>
+		    <div class="accounttype">
+      <input class="option" type="checkbox"   checked/>
+      <label for="radioOne" class="radio" chec>Deductible option</label>
+    </div>
+		   </div>
+
+ <button id="compute">Compute</button>
+ <div id="actors"></div>
+ 
+    <script id="template" type="x-tmpl-mustache">
+      {{#actors}}
+        <div class="actor">
+          <span>{{who}}</span>
+          <span>{{type}}</span>
+          <span>{{amount}}</span>
+        </div>
+      {{/actors}}
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mustache.js/2.2.1/mustache.min.js"></script>
+    <script src="drivy.js"></script>
+    <script src="index.js"></script> 
+  </div>
+</div>
   </body>
+  
 </html>
